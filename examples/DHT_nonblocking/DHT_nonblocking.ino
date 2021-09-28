@@ -28,7 +28,7 @@
 //#define DHT_SENSOR_TYPE DHT_TYPE_21
 //#define DHT_SENSOR_TYPE DHT_TYPE_22
 
-static const int DHT_SENSOR_PIN = 10;
+static const int DHT_SENSOR_PIN = 9;
 DHT_nonblocking dht_sensor( DHT_SENSOR_PIN, DHT_SENSOR_TYPE );
 
 
